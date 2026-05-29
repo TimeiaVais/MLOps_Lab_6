@@ -1,0 +1,11 @@
+mlflow:
+  tracking_uri: "file:./mlruns"
+
+dataset:
+  path: "data/raw"
+
+model:
+  num_classes: 10
+
+logging:
+  file: "logs/dashboard.log"
